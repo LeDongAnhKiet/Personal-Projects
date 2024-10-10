@@ -1,0 +1,16 @@
+twitter:
+  bearer_token: "your_bearer_token"
+
+Discord:
+  - name: "Channel 1"
+    followed_users: [123456789, 987654321]
+    tracked_keywords: ["Python", "Tweepy"]
+    keywords: ["Python", "Code"]
+    blackwords: ["spam"]
+    urls: ["https://discordapp.com/api/webhooks/..."]
+  - name: "Channel 2"
+    followed_users: [456789123]
+    tracked_keywords: ["AI", "ML"]
+    keywords: ["AI", "Data"]
+    blackwords: ["ad"]
+    urls: ["https://discordapp.com/api/webhooks/..."]
