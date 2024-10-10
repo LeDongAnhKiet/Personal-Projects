@@ -1,0 +1,12 @@
+default:
+  n_fft: 1024
+  win_length: 1024
+  hop_length: 256
+  n_iter: 30
+  preemphasis: 0.97
+  max_db: 100
+  min_db: -100
+
+train1:
+  data_path: '/path/to/training/data'
+  batch_size: 32
